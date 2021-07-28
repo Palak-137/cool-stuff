@@ -1,0 +1,11 @@
+.navbar{
+    background-color: rgb(203, 149, 248);
+    font-size: 1.3rem;
+    color: white;
+    font-weight: 900;
+    position: sticky;
+}
+.navbar a{
+    color: white;
+    font-family: 'Noto Sans SC', sans-serif;
+}

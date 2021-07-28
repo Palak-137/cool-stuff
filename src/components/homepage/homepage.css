@@ -1,0 +1,72 @@
+.home{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin: 3px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Noto Sans SC', sans-serif;
+}
+.text{
+    width: 50%;
+}
+
+#card{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+h1 {
+  text-align: center;
+}
+
+.line {
+  border: 1px solid #29323c;
+  opacity: 0.1;
+  margin: 30px 0;
+}
+
+.boxes .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.boxes .container .card {
+  background-color: #ffffff;
+  border-radius: 5px;
+  flex: 1;
+  margin: 2%;
+  min-width: 150px;
+  min-height: 150px;
+  text-align: center;
+  align-items: center;
+  padding: 0;
+}
+
+.boxes .container .card .card-content {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  margin: 2px;
+  font-size: 2rem;
+  font-weight: 700;
+}
+.boxes .container .card.box8 {
+  box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.16);
+}
+.boxes .container .card.box8:hover {
+    transition: 0.5s;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.changeShadow{
+  box-shadow: 0px 2px 15px 0px rgb(248, 233, 19);
+}
+.changeShadow:hover{
+  transition: 0.5s;
+  box-shadow: rgb(248, 233, 19,0.25) 0px 50px 100px -20px, rgba(248, 238, 103, 0.952) 0px 30px 60px -30px;
+}
