@@ -14,6 +14,7 @@
     font-weight: 800;
     color: white;
     mix-blend-mode: difference;
+    background-blend-mode: lighten;
 }
 .video-responsive {
     overflow: hidden;
@@ -63,3 +64,6 @@
       height: 55%;
     }
   }
+.image{
+  background-blend-mode: screen;
+}
